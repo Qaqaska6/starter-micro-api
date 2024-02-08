@@ -5,7 +5,7 @@ const fs = require('fs')
 
 const admin = 5726497810;
 
-const file = './requests.json';
+const file = './requests/requests.json';
 
 const data = fs.readFileSync(file, {encoding : 'utf8'})
 let requests = JSON.parse(data);
