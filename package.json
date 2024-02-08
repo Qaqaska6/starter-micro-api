@@ -1,13 +1,15 @@
 {
-  "name": "starter-micro-api",
+  "name": "tgbot",
   "version": "1.0.0",
-  "description": "Cyclic.sh micro api starter",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
   }
 }
